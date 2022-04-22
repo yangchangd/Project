@@ -1,0 +1,9 @@
+* {
+  font-size: 20px;
+}
+.side-bar{
+  width: 15rem
+}
+.page-container{
+  width: calc(100% - 16rem)
+}

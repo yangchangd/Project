@@ -1,0 +1,13 @@
+<hr />
+<h4>{{heroe?.name | uppercase}}的信息</h4>
+<div>
+  <u>{{3.6 | number: '1.5-5'}}</u>
+  <ul>
+    <li *ngFor="let h of heroe | keyvalue ">{{h.key}}: {{h.value}}</li>
+  </ul>
+  <!-- <ul>
+    <li>Name: {{heroe?.name}}</li>
+    <li>Age: {{heroe?.age}}</li>
+    <li>Gender: {{heroe?.gender}}</li>
+  </ul> -->
+</div> 
